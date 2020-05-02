@@ -1,0 +1,17 @@
+# Design a desk card!
+- What levels of employees are in the call center?
+> Operator, supervisor, director
+- Can we assume operators always get the initial calls?
+> Yes
+- If there is no free operators or the operator can't handle the call, does the call go to the supervisors?
+> Yes
+- If there is no free supervisors or the supervisor can't handle the call, does the call go to the directors?
+> Yes
+- Can we assume the directors can handle all calls?
+> Yes
+- What happens if nobody can answer the call?
+> It gets queued
+- Do we need to handle 'VIP' calls where we put someone to the front of the line?
+> No
+- Can we assume inputs are valid or do we have to validate them?
+> Assume they're valid
